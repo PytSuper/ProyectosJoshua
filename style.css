@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Color {
+  background: linear-gradient(to top, #00b4d8 0%, #023e8a 50%);
+}
+
+.agrupar {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 1260px;
+  height: 1000px;
+  display: block;
+}
+
+.Cabezera {
+  text-align: left;
+  width: 1400px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  color: #f4faff;
+}
+
+.Alinear {
+  background: #2e1777;
+  border-radius: 1000px;
+  padding: 15px;
+  color: #f4faff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.Alinear li {
+  list-style: none;
+  margin: 5px 160px;
+  display: inline-block;
+  position: relative;
+  width: max-content;
+}
+
+.Alinear li::after {
+  content: "";
+  background: linear-gradient(to right, #ce2d4f, blue);
+  border-radius: 100px;
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 160ms ease-out;
+}
+
+.Alinear li:hover::after {
+  width: 100%;
+}
+
+.C {
+  width: 90px;
+  height: 100px;
+  margin: 50px;
+
+  position: relative;
+  float: left;
+  right: -20px;
+  bottom: -10px;
+}
+
+.Section1 {
+  margin: 50px;
+  padding: 30px 50px;
+  color: #f4faff;
+  font: 20px bold, sans-serif;
+  text-align: left;
+  border-radius: 1000px;
+  background: #03045e;
+}
+
+.python {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  top: -20px;
+  position: relative;
+  float: right;
+  left: -30px;
+  top: -30px;
+}
+
+.Section2 {
+  margin: 50px;
+  padding: 25px 50px;
+  color: #f4faff;
+  font: 20px bold, sans-serif;
+  text-align: right;
+  border-radius: 1000px;
+  background: #03045e;
+}
+
+.pie {
+  color: #f4faff;
+  font: 25px bold, sans-serif;
+
+  padding: 10px;
+  margin: 20px;
+  clear: both;
+}
